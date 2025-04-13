@@ -1,0 +1,125 @@
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    background: #eee;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    background-image: url('/media/imgs/bodybg2.jpg');
+    }
+    .page-container {
+    width: 70%;
+    }
+    header {
+    text-align: center;
+    color: white;
+    }
+    nav {
+    height: 60px;
+    background-color: #e74c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    }
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    height: 100%;
+    }
+    nav ul li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    }
+    nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: background-color 0.3s, color 0.3s;
+    }
+    nav ul li a:hover {
+    background-color: white;
+    color: #e74c3c;
+    }
+    .main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    max-width: 1200px;
+    margin: auto;
+    }
+    .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1 1 45%;
+    text-align: right;
+    }
+    .sidebars{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1 1 25%;
+    }
+    .box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    p{
+        margin-top: 10px;
+    }
+    h3 {
+    color: #e74c3c;
+    margin-bottom: 10px;
+    }
+    h4 {
+    color: #e74c3c;
+    margin-bottom: 10px;
+    }
+    em{
+        color:rgba(0, 0, 0, 0.404);
+    }
+    .highlight {
+    background: yellow;
+    font-weight: bold;
+    }
+    footer {
+    background: #c62828;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 13px;
+    margin-top: 30px;
+    }
+    footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    }
+    iframe, audio {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    }
+    img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    }
